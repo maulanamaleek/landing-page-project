@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className="w-full bg-secondary md:h-96 flex flex-col md:flex-row justify-between px-10 md:px-56 py-12 gap-16 md:gap-24 mt-12">
+    <div className="w-full bg-secondary md:h-96 flex flex-col md:flex-row justify-between px-10 lg:px-56 py-12 gap-16 md:gap-24 mt-12">
         <div className="md:flex-1">
             <Image src="/logo.png" alt="berry labs logo" width={272} height={85} />
 
